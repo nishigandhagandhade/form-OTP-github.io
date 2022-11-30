@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-OTP</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="result"></div>
+
+    <div class="wrapper">
+    <form>
+        <lable id="heading">First Name :</lable>
+        <br>
+        <input type="text" name="fname" id="text" >
+        <br>
+        <br>
+
+        <label id="heading">Last Name :</label>
+        <br>
+        <input type="text" name="lname" id="text">
+        <br>
+        <br>
+
+        <label id="heading">Email-Id :</label>
+        <br>
+        <input type="text" name="Email-Id" placeholder="Email-Id" id="text">
+        <br>
+        <br>
+
+        <label id="heading">Conatct No :</label>
+        <br>
+        <input type="text" name="number" id="text">
+        <br>
+        <br>
+
+        <label id="heading">OTP :</label>
+        <br>
+        <input type="text" name="otp" placeholder="Enter-OTP" id="text">
+        <br>
+        <br>
+
+       <button onclick="button()" id="button">Show-OTP</button>
+       <br>
+       <br>
+
+       <input type="submit" name="submit" id="clike">
+       <input type="reset" name="reset" id="clike">
+
+    </form>
+</div>
+
+
+
+
+
+
+    <script>
+        function button(){
+
+         document.getElementById("result").innerHTML=button;
+           
+           
+        } 
+
+         console.log(Math.round(Math.random(button)*10000))
+      
+        
+       
+        
+        
+    </script>
+</body>
+</html>
